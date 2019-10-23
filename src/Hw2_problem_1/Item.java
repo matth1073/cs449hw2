@@ -1,4 +1,4 @@
-package hw2_problem_1;
+package Hw2_problem_1;
 
 public class Item {
 	private String title;
