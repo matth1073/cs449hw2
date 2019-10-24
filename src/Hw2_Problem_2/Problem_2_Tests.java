@@ -53,8 +53,17 @@ public class Problem_2_Tests extends TestCase{
 		assertEquals(sale.getDiscountedSubTotal('p'), 8.50);
 	}
 	
-	public void testdelete() {
+	public void testAllCustomersSuccesfully() {
+		Item2 orange = new Item2("orange", 0.60, 5);
+		sale.addItem(orange);
+		Item2 banana = new Item2("banana", 0.10, 10);
+		sale.addItem(banana);
+		Item2 apple = new Item2("apple", 1.50, 4);
+		sale.addItem(apple);
 		
+		assertEquals(sale.getDiscountedSubTotal('r'), 9.50);
+		assertEquals(sale.getDiscountedSubTotal('s'), 9.00);
+		assertEquals(sale.getDiscountedSubTotal('p'), 8.50);
 	}
 	
 	

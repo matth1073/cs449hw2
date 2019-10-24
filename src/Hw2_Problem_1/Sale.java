@@ -1,4 +1,4 @@
-package Hw2_problem_1;
+package Hw2_Problem_1;
 
 import java.util.ArrayList;
 
