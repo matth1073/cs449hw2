@@ -53,5 +53,9 @@ public class Problem_2_Tests extends TestCase{
 		assertEquals(sale.getDiscountedSubTotal('p'), 8.50);
 	}
 	
+	public void testdelete() {
+		
+	}
+	
 	
 }

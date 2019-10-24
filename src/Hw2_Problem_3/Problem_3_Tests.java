@@ -23,4 +23,9 @@ public class Problem_3_Tests extends TestCase{
 		assertEquals(sale.getDiscount('s', "tuesday"), 1.00);
 		assertEquals(sale.getDiscountedSubTotal('s', "tuesday"), 9.00);
 	}
+	
+	public void testdelete() {
+		
+	}
+	
 }
